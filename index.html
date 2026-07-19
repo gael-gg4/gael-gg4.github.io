@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS Saint-Étienne — Renaissance | Career Recap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a24;
+            --accent-green: #00a651;
+            --accent-green-glow: rgba(0, 166, 81, 0.3);
+            --accent-gold: #ffd700;
+            --accent-silver: #c0c0c0;
+            --accent-bronze: #cd7f32;
+            --text-primary: #ffffff;
+            --text-secondary: #8a8a9a;
+            --text-muted: #5a5a6a;
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --radius: 16px;
+            --radius-sm: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Subtle grid background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(0, 166, 81, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 166, 81, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ==================== HERO ==================== */
+        .hero {
+            position: relative;
+            padding: 60px 40px;
+            background: linear-gradient(135deg, var(--bg-card) 0%, #0d1a12 100%);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-subtle);
+            overflow: hidden;
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, var(--accent-green-glow) 0%, transparent 70%);
+            filter: blur(60px);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .club-logo {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, var(--accent-green), #00d66a);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 48px;
+            color: white;
+            box-shadow: 0 0 40px var(--accent-green-glow);
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 40px var(--accent-green-glow); }
+            50% { box-shadow: 0 0 60px var(--accent-green-glow); }
+        }
+
+        .hero-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .hero-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-game {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .badge-status {
+            background: rgba(255, 80, 80, 0.2);
+            border: 1px solid rgba(255, 80, 80, 0.4);
+            color: #ff6b6b;
+        }
+
+        .badge-status.live {
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50%, 100% { opacity: 1; }
+            25%, 75% { opacity: 0.6; }
+        }
+
+        .hero-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(48px, 8vw, 72px);
+            letter-spacing: 2px;
+            line-height: 1;
+            margin-bottom: 8px;
+            background: linear-gradient(90deg, #ffffff 0%, var(--accent-green) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+
+        .btn-youtube {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #ff0000, #cc0000);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+        }
+
+        .btn-youtube:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(255, 0, 0, 0.4);
+        }
+
+        .btn-youtube svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* ==================== KEY STATS ==================== */
+        .key-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 28px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-green), var(--accent-gold));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-green);
+        }
+
+        .stat-card:hover::before {
+            opacity: 1;
+        }
+
+        .stat-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        .stat-value {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 48px;
+            color: var(--accent-green);
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* ==================== SECTIONS ==================== */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 28px;
+            animation: fadeInUp 0.8s ease-out 0.3s both;
+        }
+
+        .section-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent-green), #00d66a);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .section-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 36px;
+            letter-spacing: 1px;
+        }
+
+        /* ==================== TROPHIES ==================== */
+        .trophies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .trophy-category {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 24px;
+            animation: fadeInUp 0.6s ease-out both;
+        }
+
+        .trophy-category:nth-child(1) { animation-delay: 0.4s; }
+        .trophy-category:nth-child(2) { animation-delay: 0.5s; }
+        .trophy-category:nth-child(3) { animation-delay: 0.6s; }
+
+        .category-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .trophy-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .trophy-item:last-child {
+            border-bottom: none;
+        }
+
+        .trophy-icon {
+            font-size: 28px;
+        }
+
+        .trophy-info {
+            flex: 1;
+        }
+
+        .trophy-name {
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .trophy-year {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .trophy-count {
+            background: var(--accent-green);
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+
+        /* ==================== TIMELINE ==================== */
+        .timeline {
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--accent-green), transparent);
+        }
+
+        .season-card {
+            position: relative;
+            padding-left: 60px;
+            margin-bottom: 24px;
+            animation: fadeInUp 0.6s ease-out both;
+        }
+
+        .season-card:nth-child(1) { animation-delay: 0.4s; }
+        .season-card:nth-child(2) { animation-delay: 0.5s; }
+        .season-card:nth-child(3) { animation-delay: 0.6s; }
+        .season-card:nth-child(4) { animation-delay: 0.7s; }
+
+        .season-dot {
+            position: absolute;
+            left: 12px;
+            top: 24px;
+            width: 18px;
+            height: 18px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            border: 4px solid var(--bg-primary);
+            box-shadow: 0 0 20px var(--accent-green-glow);
+        }
+
+        .season-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .season-content:hover {
+            border-color: var(--accent-green);
+            transform: translateX(8px);
+        }
+
+        .season-header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .season-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        .season-rank {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(0, 166, 81, 0.15);
+            border-radius: 8px;
+            font-weight: 700;
+        }
+
+        .rank-1 { background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.1)); color: var(--accent-gold); }
+        .rank-2 { background: rgba(192, 192, 192, 0.15); color: var(--accent-silver); }
+        .rank-3 { background: rgba(205, 127, 50, 0.15); color: var(--accent-bronze); }
+
+        .season-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+        }
+
+        .detail-item {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 14px;
+            border-radius: var(--radius-sm);
+        }
+
+        .detail-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+
+        .detail-value {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .season-trophies {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .season-trophy {
+            font-size: 18px;
+        }
+
+        .btn-episode {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: rgba(255, 0, 0, 0.1);
+            border: 1px solid rgba(255, 0, 0, 0.3);
+            color: #ff6b6b;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 16px;
+        }
+
+        .btn-episode:hover {
+            background: rgba(255, 0, 0, 0.2);
+            transform: scale(1.02);
+        }
+
+        /* ==================== FM SECTION ==================== */
+        .fm-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .fm-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 24px;
+            animation: fadeInUp 0.6s ease-out both;
+        }
+
+        .fm-card:nth-child(1) { animation-delay: 0.4s; }
+        .fm-card:nth-child(2) { animation-delay: 0.5s; }
+        .fm-card:nth-child(3) { animation-delay: 0.6s; }
+        .fm-card:nth-child(4) { animation-delay: 0.7s; }
+
+        .fm-card-icon {
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+
+        .fm-card-title {
+            font-size: 14px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .fm-card-value {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .player-list {
+            list-style: none;
+            margin-top: 12px;
+        }
+
+        .player-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-subtle);
+            font-size: 14px;
+        }
+
+        .player-list li:last-child {
+            border-bottom: none;
+        }
+
+        .player-rating {
+            background: var(--accent-green);
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        /* ==================== FOOTER ==================== */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--accent-green);
+            text-decoration: none;
+        }
+
+        /* ==================== ANIMATIONS ==================== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 24px;
+            }
+
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .club-logo {
+                width: 100px;
+                height: 100px;
+                font-size: 40px;
+            }
+
+            .hero-badges {
+                justify-content: center;
+            }
+
+            .hero-title {
+                font-size: 42px;
+            }
+
+            .key-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stat-value {
+                font-size: 36px;
+            }
+
+            .timeline::before {
+                left: 10px;
+            }
+
+            .season-card {
+                padding-left: 40px;
+            }
+
+            .season-dot {
+                left: 2px;
+                width: 16px;
+                height: 16px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .key-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .season-details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="club-logo">ASSE</div>
+            <div class="hero-info">
+                <div class="hero-badges">
+                    <span class="badge badge-game">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 6H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1zm-1 10H4V8h16v8z"/>
+                        </svg>
+                        Football Manager 2024
+                    </span>
+                    <span class="badge badge-status live">
+                        🔴 En cours
+                    </span>
+                </div>
+                <h1 class="hero-title">AS SAINT-ÉTIENNE</h1>
+                <p class="hero-subtitle">Saison 1 — Renaissance des Verts</p>
+                <a href="#" class="btn-youtube">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                    </svg>
+                    Voir la playlist YouTube
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- KEY STATS -->
+        <section class="key-stats">
+            <div class="stat-card">
+                <div class="stat-icon">📅</div>
+                <div class="stat-value">4</div>
+                <div class="stat-label">Saisons jouées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🏆</div>
+                <div class="stat-value">6</div>
+                <div class="stat-label">Trophées</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚽</div>
+                <div class="stat-value">68%</div>
+                <div class="stat-label">Ratio victoires</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🥇</div>
+                <div class="stat-value">1er</div>
+                <div class="stat-label">Meilleur classement</div>
+            </div>
+        </section>
+
+        <!-- PALMARÈS -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🏅</div>
+                <h2 class="section-title">Palmarès</h2>
+            </div>
+            <div class="trophies-grid">
+                <!-- National -->
+                <div class="trophy-category">
+                    <div class="category-title">🏴󠁧󠁢󠁦󠁩󠁣󠁿 National</div>
+                    <div class="trophy-item">
+                        <span class="trophy-icon">🥇</span>
+                        <div class="trophy-info">
+                            <div class="trophy-name">Ligue 1 BKT</div>
+                            <div class="trophy-year">Saison 3</div>
+                        </div>
+                        <span class="trophy-count">×1</span>
+                    </div>
+                    <div class="trophy-item">
+                        <span class="trophy-icon">🥈</span>
+                        <div class="trophy-info">
+                            <div class="trophy-name">Ligue 1 BKT</div>
+                            <div class="trophy-year">Saison 2</div>
+                        </div>
+                        <span class="trophy-count">×1</span>
+                    </div>
+                </div>
+                <!-- Coupes -->
+                <div class="trophy-category">
+                    <div class="category-title">🥛 Coupes nationales</div>
+                    <div class="trophy-item">
+                        <span class="trophy-icon">🏆</span>
+                        <div class="trophy-info">
+                            <div class="trophy-name">Coupe de France</div>
+                            <div class="trophy-year">Saisons 2 & 4</div>
+                        </div>
+                        <span class="trophy-count">×2</span>
+                    </div>
+                    <div class="trophy-item">
+                        <span class="trophy-icon">🥤</span>
+                        <div class="trophy-info">
+                            <div class="trophy-name">Trophée des Champions</div>
+                            <div class="trophy-year">Saisons 3 & 4</div>
+                        </div>
+                        <span class="trophy-count">×2</span>
+                    </div>
+                </div>
+                <!-- International -->
+                <div class="trophy-category">
+                    <div class="category-title">🌍 International</div>
+                    <div class="trophy-item">
+                        <span class="trophy-icon">⭐</span>
+                        <div class="trophy-info">
+                            <div class="trophy-name">Ligue des Champions</div>
+                            <div class="trophy-year">Saison 4</div>
+                        </div>
+                        <span class="trophy-count">×1</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TIMELINE -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">📊</div>
+                <h2 class="section-title">Timeline des saisons</h2>
+            </div>
+            <div class="timeline">
+                <!-- Season 4 -->
+                <article class="season-card">
+                    <div class="season-dot"></div>
+                    <div class="season-content">
+                        <div class="season-header">
+                            <h3 class="season-title">Saison 4 — La consécration européenne</h3>
+                            <div class="season-rank rank-1">
+                                🥇 Ligue 1 — 1er
+                            </div>
+                        </div>
+                        <div class="season-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Trophées</div>
+                                <div class="season-trophies">
+                                    <span class="season-trophy" title="Ligue 1">🏆</span>
+                                    <span class="season-trophy" title="Coupe de France">🥛</span>
+                                    <span class="season-trophy" title="Champions League">⭐</span>
+                                    <span class="season-trophy" title="Trophée des Champions">🥤</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Recrue star</div>
+                                <div class="detail-value">Marcus Rashford ⚡</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Bilan</div>
+                                <div class="detail-value">28V - 6N - 4D</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-episode">
+                            ▶️ Voir l'épisode
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Season 3 -->
+                <article class="season-card">
+                    <div class="season-dot"></div>
+                    <div class="season-content">
+                        <div class="season-header">
+                            <h3 class="season-title">Saison 3 — Premier titre de Ligue 1</h3>
+                            <div class="season-rank rank-1">
+                                🥇 Ligue 1 — 1er
+                            </div>
+                        </div>
+                        <div class="season-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Trophées</div>
+                                <div class="season-trophies">
+                                    <span class="season-trophy">🏆</span>
+                                    <span class="season-trophy">🥤</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Recrue star</div>
+                                <div class="detail-value">Kylian Mbappé Jr. 🔥</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Bilan</div>
+                                <div class="detail-value">26V - 8N - 4D</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-episode">
+                            ▶️ Voir l'épisode
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Season 2 -->
+                <article class="season-card">
+                    <div class="season-dot"></div>
+                    <div class="season-content">
+                        <div class="season-header">
+                            <h3 class="season-title">Saison 2 — Premiers titres domestiques</h3>
+                            <div class="season-rank rank-2">
+                                🥈 Ligue 1 — 2e
+                            </div>
+                        </div>
+                        <div class="season-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Trophées</div>
+                                <div class="season-trophies">
+                                    <span class="season-trophy">🥛</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Recrue star</div>
+                                <div class="detail-value">Lamine Yamal ✨</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Bilan</div>
+                                <div class="detail-value">22V - 10N - 6D</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-episode">
+                            ▶️ Voir l'épisode
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Season 1 -->
+                <article class="season-card">
+                    <div class="season-dot"></div>
+                    <div class="season-content">
+                        <div class="season-header">
+                            <h3 class="season-title">Saison 1 — Lancement de la carrière</h3>
+                            <div class="season-rank">
+                                5e Ligue 1
+                            </div>
+                        </div>
+                        <div class="season-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Trophées</div>
+                                <div class="detail-value" style="color: var(--text-muted)">Aucun</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Recrue star</div>
+                                <div class="detail-value">Eliesse Ben Seghir 💎</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Bilan</div>
+                                <div class="detail-value">18V - 12N - 8D</div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-episode">
+                            ▶️ Voir l'épisode
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FM SECTION -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🎮</div>
+                <h2 class="section-title">Focus Football Manager</h2>
+            </div>
+            <div class="fm-grid">
+                <div class="fm-card">
+                    <div class="fm-card-icon">⭐</div>
+                    <div class="fm-card-title">Effectif star</div>
+                    <ul class="player-list">
+                        <li><span class="player-rating">89</span> Marcus Rashford — AT</li>
+                        <li><span class="player-rating">87</span> Kylian Mbappé Jr. — BU</li>
+                        <li><span class="player-rating">86</span> William Saliba — DC</li>
+                    </ul>
+                </div>
+                <div class="fm-card">
+                    <div class="fm-card-icon">🌱</div>
+                    <div class="fm-card-title">Jeunes formés</div>
+                    <ul class="player-list">
+                        <li><span class="player-rating">82</span> Enzo Wamba — MC</li>
+                        <li><span class="player-rating">80</span> Nathan M' confiku — DC</li>
+                        <li><span class="player-rating">79</span> Lucas Moreau — MD</li>
+                    </ul>
+                </div>
+                <div class="fm-card">
+                    <div class="fm-card-icon">💰</div>
+                    <div class="fm-card-title">Transfert record</div>
+                    <div class="fm-card-value" style="margin-top: 12px;">
+                        <span style="font-size: 28px; color: var(--accent-green);">95M€</span><br>
+                        Achat de Marcus Rashford
+                    </div>
+                </div>
+                <div class="fm-card">
+                    <div class="fm-card-icon">⚙️</div>
+                    <div class="fm-card-title">Tactique fétiche</div>
+                    <div class="fm-card-value" style="margin-top: 12px;">
+                        4-2-3-1 Contre<br>
+                        <span style="color: var(--text-muted); font-size: 13px; margin-top: 8px; display: block;">
+                            65% possession • Transitions rapides
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Page carrière créée pour un créateur de contenu Gaming ⚽🚴</p>
+        <p style="margin-top: 8px;">Football Manager & Pro Cycling Manager</p>
+    </footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
