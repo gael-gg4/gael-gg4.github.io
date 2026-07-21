@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07070e">
+  <title>404 — Page introuvable | gg4</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* ── 404 Hero ── */
+    .not-found-hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      animation: fadeUp 0.6s ease both;
+    }
+    .not-found-code {
+      font-family: var(--font-d);
+      font-size: clamp(80px, 15vw, 140px);
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -4px;
+      background: linear-gradient(135deg, var(--blue) 0%, var(--purple) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+    .not-found-title {
+      font-family: var(--font-d);
+      font-size: clamp(22px, 4vw, 30px);
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .not-found-sub {
+      font-size: 16px;
+      color: var(--text);
+      max-width: 420px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* ── 404 Nav ── */
+    .not-found-nav {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      max-width: 650px;
+    }
+    .not-found-buttons {
+	  display: inline-flex;
+	  align-items: center;
+	  gap: 20px;
+	  width: 100%;
+	  max-width: 650px;
+	  margin-top: 32px;
+	}
+	.not-found-home-btn,
+	.not-found-home-btn:visited,
+	.yt-btn,
+	.yt-btn:visited {
+	  flex: 1;
+	  display: inline-flex;
+	  align-items: center;
+	  justify-content: center;
+	  gap: 10px;
+	  padding: 14px 32px;
+	  border-radius: 50px;
+	  border: 1px solid;
+	  color: #fff;
+	  text-decoration: none;
+	  font-family: 'Nunito Sans', sans-serif;
+	  font-weight: 700;
+	  font-size: 15px;
+	  letter-spacing: 0.02em;
+	  transition: all 0.3s ease;
+	  height: 48px;
+	  min-height: 48px;
+	  margin: 0 !important;  /* ← Force à 0 */
+	  margin-top: 0 !important; /* ← Double assurance */
+	}
+	.not-found-home-btn,
+	.not-found-home-btn:visited {
+	  background: rgba(61, 127, 255, 0.15);
+	  border-color: rgba(61, 127, 255, 0.35);
+	  box-shadow: 0 0 24px rgba(61, 127, 255, 0.3);
+	}
+	.not-found-home-btn:hover {
+	  border-color: rgba(61, 127, 255, 0.7);
+	  transform: translateY(-2px);
+	  box-shadow: 0 0 36px rgba(61, 127, 255, 0.4);
+	  background-color: rgba(61, 127, 255, 0.25);
+	}
+	.yt-btn,
+	.yt-btn:visited {
+	  background: rgba(255, 0, 51, 0.15);
+	  border-color: rgba(255, 0, 51, 0.35);
+	  box-shadow: 0 0 24px rgba(255, 0, 51, 0.35);
+	}
+	.yt-btn:hover {
+	  border-color: rgba(255, 0, 51, 0.7);
+	  transform: translateY(-2px);
+	  box-shadow: 0 0 36px rgba(255, 0, 51, 0.4);
+	  background-color: rgba(255, 0, 51, 0.25);
+	}
+	.not-found-home-icon {
+	  width: 22px;
+	  height: 22px;
+	  color: var(--blue);
+	  flex-shrink: 0;
+	}
+	.yt-icon {
+	  width: 22px;
+	  height: 22px;
+	  fill: #ff4444;
+	  flex-shrink: 0;
+	}
+  </style>
+</head>
+
+<body>
+
+	<!-- ── TOPBAR ── -->
+	<div class="topbar-sticky">
+	  <div class="topbar">
+		<a class="back-btn" href="index.html">
+		  <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+		  Accueil
+		</a>
+	  </div>
+	</div>
+
+  <!-- ── HERO 404 ── -->
+  <div class="not-found-hero">
+	<!-- ── Avatar ring ── -->
+    <div class="avatar-ring">
+		<img
+		  src="assets/images/avatar.jpg"
+		  alt="Avatar gg4"
+		  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+		<div class="fallback" style="display:none">gg4</div>
+    </div>
+
+    <div class="not-found-code" aria-hidden="true">404</div>
+    <h1 class="not-found-title">Page introuvable</h1>
+    <p class="not-found-sub">
+      Cette page n'existe pas ou a été supprimée.
+    </p>
+
+    <!-- ── NAV ── -->
+    <nav class="not-found-nav" aria-label="Navigation 404">
+      <a class="not-found-home-btn" href="index.html">
+        <svg class="not-found-home-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        Retour à l'accueil
+      </a>
+
+      <a class="yt-btn" href="https://youtube.com/@gg_4" target="_blank" rel="noopener noreferrer" aria-label="Chaîne YouTube gg4">
+        <svg class="yt-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        Chaîne YouTube
+      </a>
+    </nav>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <p><a href="https://youtube.com/@gg_4" target="_blank" rel="noopener">@gg4</a></p>
+    </div>
+  </footer>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

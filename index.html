@@ -5,402 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="gg4 — Retrouvez le résumé de mes carrières sur Football Manager et Pro Cycling Manager en vidéo sur YouTube.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="gg4 — Carrières Football Manager & Pro Cycling Manager">
+  <meta property="og:title" content="gg4 — Retrouvez le résumé de mes carrières sur Football Manager et Pro Cycling Manager en vidéo sur YouTube.">
   <meta property="og:description" content="Retrouvez mes carrières FM et PCM en vidéo sur YouTube.">
   <meta property="og:image" content="assets/images/avatar.jpg">
   <meta property="og:url" content="https://gael-gg4.github.io/">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#07070e">
   <title>gg4</title>
   <link rel="icon" type="image/x-icon" href="assets/images/avatar.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg:         #07070e;
-      --surface:    #0f0f1a;
-      --surface2:   #161625;
-      --blue:       #3d7fff;
-      --purple:     #9b4dff;
-	  --yellow:		#ffe14d;	
-      --text:       #e8e8f4;
-      --text-muted: #7070a0;
-      --border:     rgba(255,255,255,0.06);
-      --glow-fm:    rgba(155,77,255,0.5);
-      --glow-pcm:   rgba(255,225,77,0.25);
-      --font-d:     'Bricolage Grotesque', sans-serif;
-      --font-b:     'Nunito Sans', sans-serif;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: var(--font-b);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      overflow-x: hidden;
-    }
-
-    /* ── Background atmosphere ── */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 60% 55% at 15% 10%, rgba(61,127,255,0.07) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 45% at 85% 90%, rgba(155,77,255,0.07) 0%, transparent 60%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    body::after {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: radial-gradient(circle, rgba(255,255,255,0.025) 1px, transparent 1px);
-      background-size: 32px 32px;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* ── Utility ── */
-    .container {
-      width: 100%;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 24px;
-      position: relative;
-      z-index: 1;
-    }
-
-    /* ── Header / Hero ── */
-    header {
-      padding: 64px 0 56px;
-      text-align: center;
-    }
-
-    /* ── Avatar ring ── */
-    .avatar-ring {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      margin: 0 auto 28px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .avatar-ring::before {
-      content: '';
-      position: absolute;
-      inset: -3px;
-      border-radius: 50%;
-      background: conic-gradient(#1874e6, #a855f7, #1874e6);
-      animation: spin 3s linear infinite;
-    }
-
-    .avatar-ring img,
-    .avatar-ring .fallback {
-      position: relative;
-      width: 102px;
-      height: 102px;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-    }
-
-    .avatar-ring .fallback {
-      background: linear-gradient(135deg, #1874e6, #a855f7);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #fff;
-      z-index: 1;
-    }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    /* ── Brand + tagline ── */
-    .brand {
-      font-family: var(--font-d);
-      font-size: clamp(52px, 10vw, 88px);
-      font-weight: 900;
-      letter-spacing: -3px;
-	  color: var(--blue);
-      line-height: 1;
-    }
-
-    .tagline {
-      font-family: var(--font-d);
-      font-size: clamp(13px, 2vw, 15px);
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--blue);
-      margin-top: 12px;
-    }
-
-	.yt-btn {
-      display: inline-flex;
-      align-items: center;
-	  gap: 10px;
-      margin-top: 32px;
-	  padding: 14px 32px;
-      border-radius: 50px;
-	  background: rgba(255, 0, 51, 0.15);
-      border: 1px solid rgba(255, 0, 51, 0.35);
-      color: #fff;
-      text-decoration: none;
-      font-family: var(--font-b);
-      font-weight: 700;
-      font-size: 15px;
-      letter-spacing: 0.02em;
-      transition: all 0.3s ease;
-      box-shadow: 0 0 24px rgba(255, 0, 51, 0.35);
-    }
-
-    .yt-btn:hover {
-      border-color: rgba(255, 0, 51, 0.7);
-      transform: translateY(-2px);
-      box-shadow: 0 0 36px rgba(255, 0, 51, 0.4);
-	  background-color: rgba(255, 0, 51, 0.25);
-    }
-
-    .yt-icon {
-      width: 22px;
-      height: 22px;
-      fill: #ff4444;
-      flex-shrink: 0;
-    }
-
-    /* ── Divider ── */
-    .section-divider {
-      width: 100%;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--border), transparent);
-      margin: 0 0 56px;
-    }
-
-    /* ── Carrières Grid ── */
-    .carrees-wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 48px 40px;
-      margin-bottom: 80px;
-    }
-
-    @media (max-width: 680px) {
-      .carrees-wrapper {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-    }
-
-    .section-head {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .section-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 16px;
-      border-radius: 50px;
-      font-family: var(--font-d);
-      font-size: 14px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .section-badge.fm {
-      background: rgba(155,77,255,0.2);
-      border: 1px solid rgba(155,77,255,0.3);
-      color: var(--purple);
-      box-shadow: 0 0 16px var(--glow-fm);
-    }
-    .section-badge.pcm {
-      background: rgba(255,225,77,0.12);
-      border: 1px solid rgba(255,225,77,0.3);
-      color: var(--yellow);
-      box-shadow: 0 0 16px var(--glow-pcm);
-    }
-	
-    /* ── Career Card ── */
-    .card-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-    }
-
-    .career-card {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      padding: 22px 24px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      text-decoration: none;
-      color: inherit;
-      position: relative;
-      overflow: hidden;
-      opacity: 0;
-      animation: fadeUp 0.5s ease both;
-      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-	  cursor: pointer;
-    }
-
-    .career-card::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .career-card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(255,255,255,0.12);
-    }
-
-    .career-card.fm:hover {
-      border-color: rgba(155,77,255,0.5);
-      box-shadow: 0 8px 32px rgba(155,77,255,0.25);
-    }
-    .career-card.fm::before {
-      background: linear-gradient(135deg, rgba(155,77,255,0.06), transparent);
-    }
-
-    .career-card.pcm:hover {
-      border-color: rgba(255,225,77,0.5);
-      box-shadow: 0 8px 32px rgba(255,225,77,0.25);
-    }
-    .career-card.pcm::before {
-      background: linear-gradient(135deg, rgba(255,225,77,0.06), transparent);
-    }
-
-    .career-card:hover::before { opacity: 1; }
-
-	.card-icon {
-	  width: 52px;
-	  height: 52px;
-	  border-radius: 12px;
-	  padding: 2px;
-	  object-fit: contain;
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  font-size: 34px;
-	}
-
-    .career-card.fm .card-icon {
-      background: rgba(155,77,255,0.15);
-      border: 1px solid rgba(155,77,255,0.25);
-      color: var(--purple);
-    }
-    .career-card.pcm .card-icon {
-      background: rgba(255,225,77,0.15);
-      border: 1px solid rgba(255,225,77,0.25);
-      color: var(--yellow);
-    }
-
-    .card-body {
-      flex: 1;
-      min-width: 0;
-      position: relative;
-      z-index: 1;
-    }
-
-    .card-game {
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-    }
-
-    .card-name {
-      font-family: var(--font-d);
-      font-size: 17px;
-      font-weight: 800;
-      color: var(--text);
-      line-height: 1.2;
-      white-space: normal;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .card-arrow {
-      flex-shrink: 0;
-      font-size: 20px;
-      color: var(--text-muted);
-      transition: all 0.25s;
-      position: relative;
-      z-index: 1;
-    }
-
-    .career-card:hover .card-arrow {
-      transform: translateX(5px);
-      color: var(--text);
-    }
-
-    /* ── Footer ── */
-    footer {
-      margin-top: auto;
-      padding: 32px 0;
-      border-top: 1px solid var(--border);
-      text-align: center;
-    }
-
-    footer p {
-      font-size: 13px;
-      color: var(--text-muted);
-    }
-
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-
-    footer a:hover { color: var(--text); }
-
-    /* ── Scrollbar ── */
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: var(--bg); }
-    ::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
-
-    /* ── Animations ── */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(22px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-
-    header { animation: fadeUp 0.6s ease 0.05s both; }
-
-    /* ── Accessibilité : réduction des animations ── */
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        scroll-behavior: auto !important;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+
+<body class="theme-home">
 
   <!-- ── Header ── -->
   <header>
@@ -432,7 +51,7 @@
   <main>
     <div class="container">
       <div class="section-divider"></div>
-      <div class="carrees-wrapper">
+      <div class="carreer-wrapper">
 
         <!-- ── Football Manager ── -->
         <div class="section-block">
@@ -480,14 +99,14 @@
           </div>
         </div>
 
-      </div><!-- /.carrees-wrapper -->
+      </div><!-- /.carreer-wrapper -->
     </div>
   </main>
 
   <!-- ── Footer ── -->
   <footer>
     <div class="container">
-      <p><a href="https://youtube.com/@gg_4" target="_blank" rel="noopener">https://youtube.com/@gg_4</a></p>
+      <p><a href="https://youtube.com/@gg_4" target="_blank" rel="noopener">@gg4</a></p>
     </div>
   </footer>
 
