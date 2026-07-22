@@ -537,6 +537,14 @@ a:visited {
   border-radius: 12px;
   border: 1px solid var(--border);
 }
+.table-error {
+  color: #ff7b7b;
+  font-weight: 700;
+  text-align: center;
+}
+tbody td[colspan] {
+  text-align: center;
+}
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 thead tr { background: var(--surface2); }
 thead th {

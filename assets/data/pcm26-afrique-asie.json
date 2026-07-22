@@ -1,0 +1,40 @@
+{
+  "resumeSaisons": [
+    {
+      "saison": "Saison 1",
+      "niveau": "Continental",
+      "sponsor1": "Afrikan Parks",
+      "sponsor2": "/",
+      "sponsor3": "/",
+      "budget": "956.000 €",
+      "classement": "En cours",
+      "victoires": "En cours",
+      "premiereVideo": "Épisode 1"
+    }
+  ],
+  "performances": [
+    {
+      "saison": "Saison 1",
+      "classement": "En cours",
+      "individuel": "En cours",
+      "victoiresCN": 2,
+      "victoiresWT": "En cours",
+      "victoiresPro": "En cours",
+      "victoires1": "En cours",
+      "victoires2": "En cours"
+    }
+  ],
+  "grandsToursMonuments": [
+    {
+      "saison": "Saison 1",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    }
+  ]
+}
