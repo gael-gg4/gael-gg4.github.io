@@ -1,0 +1,159 @@
+{
+  "competitions": [
+    {
+      "saison": "Saison 1",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "Quart de finale",
+      "superCoupeBelgique": "/",
+      "coupeEurope": "EL - Demi-finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 2",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "Demi-finale",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "CL - Quart de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 3",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "CL - 8e de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 4",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "Finaliste",
+      "coupeEurope": "CL - 8e de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 5",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "CL - 8e de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 6",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "CL - Quart de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 7",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "Finaliste",
+      "superCoupeBelgique": "Finaliste",
+      "coupeEurope": "CL - Demi-finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 8",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "Finaliste",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 9",
+      "championnat": "En cours",
+      "coupeBelgique": "En cours",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "En cours",
+      "superCoupeEurope": "/",
+      "mondialClubs": "Demi-finale"
+    }
+  ],
+  "statistiques": [
+    {
+      "saison": "Saison 1",
+      "joueurCle": "7.07 - A. Bertaccini",
+      "meilleurButeur": "28 - A. Bertaccini",
+      "meilleurPasseur": "15 - M. Ndiaye",
+      "transfertRecord": "1.500.000 € - T. Hazard",
+      "premiereVideo": "Épisode 1"
+    },
+    {
+      "saison": "Saison 2",
+      "joueurCle": "7.?? - A. Bertaccini",
+      "meilleurButeur": "20 - M. Cvetkovic",
+      "meilleurPasseur": "11 - C. Huerta",
+      "transfertRecord": "1.600.000 € - L. Vázquez",
+      "premiereVideo": "Épisode 17"
+    },
+    {
+      "saison": "Saison 3",
+      "joueurCle": "7.14 - L. Hey",
+      "meilleurButeur": "24 - M. Cvetkovic",
+      "meilleurPasseur": "13 - A. Bertaccini",
+      "transfertRecord": "4.500.000 € - C. Hatenboer",
+      "premiereVideo": "Épisode 31"
+    },
+    {
+      "saison": "Saison 4",
+      "joueurCle": "7.14 - G. Biladi",
+      "meilleurButeur": "26 - M. Cvetkovic",
+      "meilleurPasseur": "18 - M. Stroeykens",
+      "transfertRecord": "14.000.000 € - A. Bertaccini",
+      "premiereVideo": "Épisode 45"
+    },
+    {
+      "saison": "Saison 5",
+      "joueurCle": "7.24 - M. Cvetkovic",
+      "meilleurButeur": "36 - M. Cvetkovic",
+      "meilleurPasseur": "17 - G. Biladi",
+      "transfertRecord": "80.000.000 € - N. De Cat",
+      "premiereVideo": "Épisode 59"
+    },
+    {
+      "saison": "Saison 6",
+      "joueurCle": "7.35 - I. Benktib",
+      "meilleurButeur": "29 - M. Cvetkovic",
+      "meilleurPasseur": "17 - G. Biladi",
+      "transfertRecord": "25.000.000 € - I. Camara",
+      "premiereVideo": "Épisode 72"
+    },
+    {
+      "saison": "Saison 7",
+      "joueurCle": "7.25 - M. Cvetkovic",
+      "meilleurButeur": "42 - M. Cvetkovic",
+      "meilleurPasseur": "15 - G. Biladi",
+      "transfertRecord": "20.000.000 € - M. Kana",
+      "premiereVideo": "Épisode 86"
+    },
+    {
+      "saison": "Saison 8",
+      "joueurCle": "7.20 - P. Richaud",
+      "meilleurButeur": "26 - M. Cvetkovic",
+      "meilleurPasseur": "15 - G. Biladi",
+      "transfertRecord": "25.000.000 € - N. Saliba",
+      "premiereVideo": "Épisode 101"
+    },
+    {
+      "saison": "Saison 9",
+      "joueurCle": "En cours",
+      "meilleurButeur": "En cours",
+      "meilleurPasseur": "En cours",
+      "transfertRecord": "En cours",
+      "premiereVideo": "Épisode 116"
+    }
+  ]
+}
