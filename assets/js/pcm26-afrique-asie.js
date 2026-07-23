@@ -18,13 +18,15 @@ async function chargerDonnees() {
 
     afficherResumeSaisons(donnees.resumeSaisons);
     afficherPerformances(donnees.performances);
-    afficherGrandsTours(donnees.grandsToursMonuments);
+    afficherGrandsTours(donnees.grandsToursMonuments);    
+    afficherFaitsMarquants(donnees.faitsMarquants);
   } catch (erreur) {
     console.error("Erreur lors du chargement des données :", erreur);
 
     afficherErreur("resume-saisons-body", 9);
     afficherErreur("performances-body", 8);
     afficherErreur("grands-tours-body", 9);
+    afficherErreurFaits(); 
   }
 }
 
@@ -120,6 +122,46 @@ function afficherGrandsTours(epreuves = []) {
   });
 }
 
+function afficherFaitsMarquants(faits = []) {
+  const conteneur = document.getElementById("faitsMarquants-body");
+
+  if (!conteneur) {
+    return;
+  }
+
+  viderElement(conteneur);
+
+  if (faits.length === 0) {
+    const ligneVide = document.createElement("div");
+    ligneVide.classList.add("highlight-row");
+
+    const texteVide = document.createElement("div");
+    texteVide.classList.add("highlight-text");
+    texteVide.textContent = "Aucune donnée disponible.";
+
+    ligneVide.appendChild(texteVide);
+    conteneur.appendChild(ligneVide);
+    return;
+  }
+
+  faits.forEach((fait) => {
+    const ligne = document.createElement("div");
+    ligne.classList.add("highlight-row");
+
+    const saison = document.createElement("div");
+    saison.classList.add("highlight-season");
+    saison.textContent = fait["saison"] ?? "—";
+
+    const texte = document.createElement("div");
+    texte.classList.add("highlight-text");
+    texte.textContent = fait["texte"] ?? "—";
+
+    ligne.appendChild(saison);
+    ligne.appendChild(texte);
+    conteneur.appendChild(ligne);
+  });
+}
+
 function creerLigne(valeurs) {
   const ligne = document.createElement("tr");
 
@@ -149,22 +191,22 @@ function afficherMessageVide(tbody, nombreColonnes) {
   tbody.appendChild(ligne);
 }
 
-function afficherErreur(idTbody, nombreColonnes) {
-  const tbody = document.getElementById(idTbody);
+function afficherErreurFaits() {
+  const conteneur = document.getElementById("faitsMarquants-body");
 
-  if (!tbody) {
+  if (!conteneur) {
     return;
   }
 
-  tbody.replaceChildren();
+  conteneur.replaceChildren();
 
-  const ligne = document.createElement("tr");
-  const cellule = document.createElement("td");
+  const ligne = document.createElement("div");
+  ligne.classList.add("highlight-row");
 
-  cellule.colSpan = nombreColonnes;
-  cellule.textContent = "Impossible de charger les données.";
-  cellule.classList.add("table-error");
+  const texte = document.createElement("div");
+  texte.classList.add("highlight-text", "table-error");
+  texte.textContent = "Impossible de charger les données.";
 
-  ligne.appendChild(cellule);
-  tbody.appendChild(ligne);
+  ligne.appendChild(texte);
+  conteneur.appendChild(ligne);
 }

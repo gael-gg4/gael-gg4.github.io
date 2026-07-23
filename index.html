@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="gg4 — Retrouvez le résumé de mes carrières sur Football Manager et Pro Cycling Manager en vidéo sur YouTube.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="gg4 — Retrouvez le résumé de mes carrières sur Football Manager et Pro Cycling Manager en vidéo sur YouTube.">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:title" content="gg4 — Carrières Football Manager et Pro Cycling Manager.">
   <meta property="og:description" content="Retrouvez mes carrières FM et PCM en vidéo sur YouTube.">
-  <meta property="og:image" content="assets/images/avatar.jpg">
-  <meta property="og:url" content="https://gael-gg4.github.io/index.html">
+  <meta property="og:image"  content="https://gael-gg4.github.io/assets/images/avatar.jpg">
+  <meta property="og:url" content="https://gael-gg4.github.io/">
+  <link rel="canonical" href="https://gael-gg4.github.io/">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#07070e">
-  <title>gg4</title>
-  <link rel="icon" type="image/x-icon" href="assets/images/avatar.jpg">
+  <title>gg4 — Carrières Football Manager et Pro Cycling Manager</title>
+  <link rel="icon" type="image/jpeg" href="assets/images/avatar.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -29,18 +31,19 @@
       <div class="avatar-ring">
         <img
           src="assets/images/avatar.jpg"
-          alt="Avatar gg4"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-        <div class="fallback" style="display:none">gg4</div>
+          alt="Portrait de gg4"
+          onerror="this.hidden=true; this.nextElementSibling.hidden=false;"
+        >
+        <div class="fallback" hidden aria-hidden="true">gg4</div>
       </div>
 
       <!-- ── Brand + tagline ── -->
       <h1 class="brand">gg4</h1>
-      <p class="tagline">Carrières Football Manager<br>& Pro Cycling Manager</p>
+      <p class="tagline">  Carrières Football Manager <span>& Pro Cycling Manager</span></p>
 
       <a href="https://youtube.com/@gg_4" target="_blank" rel="noopener" class="yt-btn">
-        <svg class="yt-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        <svg class="yt-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" >  
+          <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.5v-7l6.3 3.5-6.3 3.5z"/>
         </svg>
         <span>Chaîne YouTube</span>
       </a>
@@ -54,9 +57,11 @@
       <div class="carreer-wrapper">
 
         <!-- ── Football Manager ── -->
-        <div class="section-block">
+        <section class="section-block" aria-labelledby="fm-title">
           <div class="section-head">
-            <span class="section-badge fm">⚽ Football Manager</span>
+            <h2 id="fm-title" class="section-badge fm">
+              ⚽ Football Manager
+            </h2>
           </div>
           <div class="card-grid">
             <a href="fm26-anderlecht.html" class="career-card fm"
@@ -74,12 +79,14 @@
               <div class="card-arrow">→</div>
             </a>
           </div>
-        </div>
+        </section>
 
         <!-- ── Pro Cycling Manager ── -->
-        <div class="section-block">
+        <section class="section-block" aria-labelledby="pcm-title">
           <div class="section-head">
-            <span class="section-badge pcm">🚴 Pro Cycling Manager</span>
+            <h2 id="pcm-title" class="section-badge pcm">
+              🚴 Pro Cycling Manager
+            </h2>
           </div>
           <div class="card-grid">
             <a href="pcm26-afrique-asie.html" class="career-card pcm"
@@ -97,7 +104,7 @@
               <div class="card-arrow">→</div>
             </a>
           </div>
-        </div>
+        </section>
 
       </div><!-- /.carreer-wrapper -->
     </div>
@@ -110,6 +117,5 @@
     </div>
   </footer>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>

@@ -36,5 +36,10 @@
       "liegeBastogneLiege": "Non-qualifié",
       "ilLombardia": "Non-qualifié"
     }
+  ],
+  "faitsMarquants": [
+    { "saison": "15/01/2026", "texte": "Première victoire en .2 : Dawit Yemane avec l'étape 7 de la Vuelta a Costa Rica" },
+		{ "saison": "18/01/2026", "texte": "Première victoire en CN : Sarawut Sirironachai en Thaïlande" },
+		{ "saison": "26/02/2026","texte": "Première victoire en .1 : Dawit Yemane avec l'étape 5 du Tour du Rwanda" }
   ]
 }

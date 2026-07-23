@@ -56,14 +56,6 @@
       width: 100%;
       max-width: 650px;
     }
-    .not-found-buttons {
-	  display: inline-flex;
-	  align-items: center;
-	  gap: 20px;
-	  width: 100%;
-	  max-width: 650px;
-	  margin-top: 32px;
-	}
 	.not-found-home-btn,
 	.not-found-home-btn:visited,
 	.yt-btn,
@@ -82,7 +74,11 @@
 	  font-weight: 700;
 	  font-size: 15px;
 	  letter-spacing: 0.02em;
-	  transition: all 0.3s ease;
+	  transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease,
+      background-color 0.3s ease,
+      border-color 0.3s ease;
 	  height: 48px;
 	  min-height: 48px;
 	  margin: 0 !important;  /* ← Force à 0 */
@@ -124,6 +120,48 @@
 	  fill: #ff4444;
 	  flex-shrink: 0;
 	}
+  @media (max-width: 600px) {
+    .not-found-hero {
+      padding: 32px 20px 40px;
+    }
+    .not-found-code {
+      font-size: clamp(76px, 24vw, 110px);
+      letter-spacing: -3px;
+      margin-bottom: 12px;
+    }
+    .not-found-title {
+      font-size: 24px;
+    }
+    .not-found-sub {
+      font-size: 15px;
+      max-width: 320px;
+      margin-bottom: 28px;
+    }
+    .not-found-nav {
+      width: 100%;
+    }
+    .not-found-home-btn,
+    .yt-btn {
+      width: 100%;
+      flex: none;
+      min-height: 50px;
+      height: auto;
+      padding: 13px 20px;
+    }
+    .not-found-nav {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .not-found-hero {
+      animation: none;
+    }
+    .not-found-home-btn,
+    .yt-btn {
+      transition: none;
+    }
+  }
   </style>
 </head>
 
@@ -182,6 +220,5 @@
     </div>
   </footer>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
