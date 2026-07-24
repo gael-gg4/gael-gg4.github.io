@@ -10,6 +10,17 @@
       "classement": "En cours",
       "victoires": "En cours",
       "premiereVideo": "Épisode 1"
+    },	  
+    {
+      "saison": "Saison 2",
+      "niveau": "TBD",
+      "sponsor1": "TBD",
+      "sponsor2": "TBD",
+      "sponsor3": "TBD",
+      "budget": "TBD",
+      "classement": "TBD",
+      "victoires": "TBD",
+      "premiereVideo": "Épisode 9"
     }
   ],
   "performances": [
@@ -27,6 +38,17 @@
   "grandsToursMonuments": [
     {
       "saison": "Saison 1",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 2",
       "giro": "Non-qualifié",
       "tourDeFrance": "Non-qualifié",
       "vuelta": "Non-qualifié",
