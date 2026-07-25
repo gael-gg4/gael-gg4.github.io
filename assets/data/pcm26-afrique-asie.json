@@ -8,7 +8,7 @@
       "sponsor3": "/",
       "budget": "956.000 €",
       "classement": "En cours",
-      "victoires": "En cours",
+      "victoires": "33",
       "premiereVideo": "Épisode 1"
     },	  
     {
@@ -28,11 +28,21 @@
       "saison": "Saison 1",
       "classement": "En cours",
       "individuel": "En cours",
-      "victoiresCN": 2,
-      "victoiresWT": "En cours",
-      "victoiresPro": "En cours",
-      "victoires1": "En cours",
-      "victoires2": "En cours"
+      "victoiresCN": 12,
+      "victoiresWT": 0,
+      "victoiresPro": 1,
+      "victoires1": 1,
+      "victoires2": 19
+    },
+    {
+      "saison": "Saison 2",
+      "classement": "En cours",
+      "individuel": "En cours",
+      "victoiresCN": 0,
+      "victoiresWT": 0,
+      "victoiresPro": 0,
+      "victoires1": 0,
+      "victoires2": 0
     }
   ],
   "grandsToursMonuments": [
@@ -61,7 +71,8 @@
   ],
   "faitsMarquants": [
     { "saison": "15/01/2026", "texte": "Première victoire en .2 : Dawit Yemane avec l'étape 7 de la Vuelta a Costa Rica" },
-		{ "saison": "18/01/2026", "texte": "Première victoire en CN : Sarawut Sirironachai en Thaïlande" },
-		{ "saison": "26/02/2026","texte": "Première victoire en .1 : Dawit Yemane avec l'étape 5 du Tour du Rwanda" }
+	{ "saison": "18/01/2026", "texte": "Première victoire en CN : Sarawut Sirironachai en Thaïlande" },
+	{ "saison": "26/02/2026","texte": "Première victoire en .1 : Dawit Yemane avec l'étape 5 du Tour du Rwanda" },
+	{ "saison": "18/04/2026","texte": "Première victoire en .Pro : Welay Berhe avec l'étape 4 du Tour of Hainan" }
   ]
 }
