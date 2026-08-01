@@ -1,0 +1,139 @@
+{
+  "resumeSaisons": [
+    {
+      "saison": "Saison 1",
+      "niveau": "Continental",
+      "sponsor1": "SEGA",
+      "sponsor2": "/",
+      "sponsor3": "/",
+      "budget": "1.096.000 €",
+      "classement": "30e",
+      "victoires": 30,
+      "premiereVideo": "Épisode 1"
+    },
+    {
+      "saison": "Saison 2",
+      "niveau": "Continental",
+      "sponsor1": "SEGA",
+      "sponsor2": "/",
+      "sponsor3": "/",
+      "budget": "1.282.000 €",
+      "classement": "24e",
+      "victoires": 83,
+      "premiereVideo": "Épisode 15"
+    },
+    {
+      "saison": "Saison 3",
+      "niveau": "Continental Pro",
+      "sponsor1": "SEGA",
+      "sponsor2": "/",
+      "sponsor3": "/",
+      "budget": "1.461.000 €",
+      "classement": "18e",
+      "victoires": 46,
+      "premiereVideo": "Épisode 33"
+    },
+    {
+      "saison": "Saison 4",
+      "niveau": "Continental Pro",
+      "sponsor1": "SEGA",
+      "sponsor2": "/",
+      "sponsor3": "/",
+      "budget": "5.000.000 €",
+      "classement": "7e",
+      "victoires": 59,
+      "premiereVideo": "Épisode 47"
+    }
+  ],
+  "performances": [
+    {
+      "saison": "Saison 1",
+      "classement": "30e",
+      "individuel": "185e M.Hallemichael",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 2",
+      "classement": "24e",
+      "individuel": "64e N.Zerai",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 3",
+      "classement": "18e",
+      "individuel": "19e N.Zerai",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 4",
+      "classement": "7e",
+      "individuel": "9e N.Zerai",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    }
+  ],
+  "grandsToursMonuments": [
+    {
+      "saison": "Saison 1",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 2",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 3",
+      "giro": "?",
+      "tourDeFrance": "?",
+      "vuelta": "?",
+      "milanoSanremo": "?",
+      "tourDesFlandres": "?",
+      "parisRoubaix": "?",
+      "liegeBastogneLiege": "?",
+      "ilLombardia": "?"
+    },
+    {
+      "saison": "Saison 4",
+      "giro": "?",
+      "tourDeFrance": "?",
+      "vuelta": "?",
+      "milanoSanremo": "?",
+      "tourDesFlandres": "?",
+      "parisRoubaix": "?",
+      "liegeBastogneLiege": "?",
+      "ilLombardia": "?"
+    }
+  ],
+  "faitsMarquants": [
+    { "saison": "2026", "texte": "Passage en Continental Pro" }
+  ]
+}

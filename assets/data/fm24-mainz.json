@@ -1,0 +1,74 @@
+{
+  "competitions": [
+    {
+      "saison": "Saison 1",
+      "championnat": "3e",
+      "coupeAllemagne": "🏆 Vainqueur",
+      "superCoupeAllemagne": "/",
+      "coupeEurope": "/",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 2",
+      "championnat": "5e",
+      "coupeAllemagne": "Quart de finale",
+      "superCoupeAllemagne": "Finaliste",
+      "coupeEurope": "CL - Quart de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 3",
+      "championnat": "2e",
+      "coupeAllemagne": "🏆 Vainqueur",
+      "superCoupeAllemagne": "/",
+      "coupeEurope": "CL - Quart de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 4",
+      "championnat": "2e",
+      "coupeAllemagne": "8e de finale",
+      "superCoupeAllemagne": "Finaliste",
+      "coupeEurope": "CL - 🏆 Vainqueur",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    }
+  ],
+  "statistiques": [
+    {
+      "saison": "Saison 1",
+      "joueurCle": "7.33 - N. Weiper",
+      "meilleurButeur": "17 - N. Weiper",
+      "meilleurPasseur": "14 - P. Nebel",
+      "transfertRecord": "230.000 € - F. Engel",
+      "premiereVideo": "Épisode 1"
+    },
+    {
+      "saison": "Saison 2",
+      "joueurCle": "7.25 - N. Weiper",
+      "meilleurButeur": "14 - N. Tresoldi",
+      "meilleurPasseur": "10 - S. Halseth Nypan",
+      "transfertRecord": "10.000.000 € - A. Hanche-Olsen",
+      "premiereVideo": "Épisode 11"
+    },
+    {
+      "saison": "Saison 3",
+      "joueurCle": "7.41 - N. Weiper",
+      "meilleurButeur": "24 - N. Weiper",
+      "meilleurPasseur": "11 - A. Caci",
+      "transfertRecord": "25.000.000 € - R. Baku",
+      "premiereVideo": "Épisode 25"
+    },
+    {
+      "saison": "Saison 4",
+      "joueurCle": "7.29 - M. Bard",
+      "meilleurButeur": "21 - N. Weiper",
+      "meilleurPasseur": "15 - M. Bard",
+      "transfertRecord": "53.000.000 € - M. Pellegrino",
+      "premiereVideo": "Épisode 40"
+    }
+  ]
+}

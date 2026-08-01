@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Défi moneyball sur FM24 avec le Vitória Sport Clube: construire une équipe uniquement avec la cellule de recrutement.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:title" content="FM24 - Moneyball au Vitória Sport Clube | gg4">
+  <meta property="og:description" content="Défi moneyball sur FM24 avec le Vitória Sport Clube: construire une équipe uniquement avec la cellule de recrutement.">
+  <meta property="og:image" content="https://gael-gg4.github.io/assets/images/vitoria.png">
+  <meta property="og:url" content="https://gael-gg4.github.io/fm24-vitoria.html">
+  <link rel="canonical" href="https://gael-gg4.github.io/fm24-vitoria.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#07070e">
+  <title>gg4 - FM24 Moneyball au Vitória Sport Clube</title>
+  <link rel="icon" type="image/jpeg" href="assets/images/avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800;12..96,900&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="theme-fm">
+
+  <!-- ── TOPBAR ── -->
+  <div class="topbar-sticky">
+  <div class="topbar">
+    <a class="back-btn" href="index.html">
+      <svg viewBox="0 0 24 24">
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+      </svg>
+      Accueil
+    </a>
+    <span class="game-badge">⚽ FM24</span>
+    <a class="topbar-logo" href="fm24-vitoria.html" aria-label="Retour en haut de la page">
+      <img src="assets/images/vitoria.png" alt="">
+    </a>
+  </div>
+</div>
+
+  <!-- ── HERO ── -->
+  <header class="hero">
+    <div class="container">
+      <img
+        class="hero-logo"
+        src="assets/images/vitoria.png"
+        alt="Logo Vitória Sport Clube"
+      >
+      <h1 class="hero-title">Moneyball au Vitória Sport Clube</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <!-- ── CONCEPT ── -->
+      <div class="section-head">
+        <h2 class="section-badge">💡 Le concept</h2>
+      </div>
+      <div class="concept-card">
+        <p>
+          Le <strong>moneyball</strong> est une méthode de recrutement qui consiste à choisir des joueurs grâce aux <strong>statistiques de performance</strong> plutôt que par leur attributs, afin de trouver des joueurs sous-estimés et pas chers.
+        </p>
+      </div>
+	  
+	  <!-- ── CTA ── -->
+      <div class="cta-block">
+        <a class="yt-btn" href="https://youtube.com/playlist?list=PLNSgf-k9I4t0ew8bMq91k-xJ3LeutnFoe&si=kaR2GE2rNJiI-3Zo" target="_blank" rel="noopener">
+          <svg class="yt-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Voir la playlist YouTube
+        </a>
+      </div>
+
+      <!-- ── BILAN PAR SAISON ── -->
+      <div class="section-divider"></div>
+      <div class="section-head">
+        <h2 class="section-badge">📊 Bilan par saison</h2>
+      </div>
+
+      <div class="tables-wrapper">
+
+        <!-- TABLE 1 — Compétitions -->
+        <div>
+          <h3 class="section-title">Compétitions</h3>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Saison</th>
+                  <th>Championnat</th>
+                  <th>Taça de Portugal</th>
+                  <th>Super Coupe POR</th>
+                  <th>Coupe d'Europe</th>
+                  <th>Super Coupe EUR</th>
+                  <th>Mondial des clubs</th>
+                </tr>
+              </thead>
+				<tbody id="competitions-body">
+				  <tr>
+					<td colspan="7">Chargement des données…</td>
+				  </tr>
+				</tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TABLE 2 — Stats & Récap -->
+        <div>
+          <h3 class="section-title">Stats & Récap</h3>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Saison</th>
+                  <th>Joueur clé</th>
+                  <th>Meilleur buteur</th>
+                  <th>Meilleur passeur</th>
+                  <th>Transfert record</th>
+                  <th>Première vidéo</th>
+                </tr>
+              </thead>
+				<tbody id="statistiques-body">
+				  <tr>
+					<td colspan="6">Chargement des données…</td>
+				  </tr>
+				</tbody>
+            </table>
+          </div>
+        </div>
+      </div><!-- /.tables-wrapper -->
+
+      <!-- ── PALMARÈS ── -->
+      <div class="section-divider"></div>
+      <div class="section-head">
+        <h2 class="section-badge">🏆 Palmarès</h2>
+      </div>
+      <div class="palmares-grid palmares-grid--fm">
+        <div class="palmares-card">
+          <div class="palmares-icon">🏅</div>
+          <div class="palmares-count">2</div>
+          <div class="palmares-label">Championnats du Portugal</div>
+        </div>
+        <div class="palmares-card">
+          <div class="palmares-icon">🏆</div>
+          <div class="palmares-count">2</div>
+          <div class="palmares-label">Taça de Portugal</div>
+        </div>
+        <div class="palmares-card">
+          <div class="palmares-icon">⭐</div>
+          <div class="palmares-count">1</div>
+          <div class="palmares-label">Super Coupes du Portugal</div>
+        </div>
+        <div class="palmares-card">
+          <div class="palmares-icon">🌍</div>
+          <div class="palmares-count">1</div>
+          <div class="palmares-label">Champion's League</div>
+        </div>
+        <div class="palmares-card">
+          <div class="palmares-icon">✨</div>
+          <div class="palmares-count">0</div>
+          <div class="palmares-label">Super Coupes d'Europe</div>
+        </div>
+        <div class="palmares-card">
+          <div class="palmares-icon">🗺️</div>
+          <div class="palmares-count">0</div>
+          <div class="palmares-label">Mondiaux des clubs</div>
+        </div>
+      </div>
+
+      <!-- ── CTA ── -->
+      <div class="cta-block">
+        <a class="yt-btn" href="https://youtube.com/playlist?list=PLNSgf-k9I4t0ew8bMq91k-xJ3LeutnFoe&si=kaR2GE2rNJiI-3Zo" target="_blank" rel="noopener">
+          <svg class="yt-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Voir la playlist YouTube
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <p><a href="https://youtube.com/@gg_4" target="_blank" rel="noopener">@gg4</a></p>
+    </div>
+  </footer>
+
+<script src="assets/js/header-scroll.js" defer></script>
+<script src="assets/js/fm24-vitoria.js" defer></script>
+</body>
+</html>
