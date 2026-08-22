@@ -74,12 +74,21 @@
     },
     {
       "saison": "Saison 9",
-      "championnat": "En cours",
-      "coupeBelgique": "En cours",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
       "superCoupeBelgique": "🏆 Vainqueur",
-      "coupeEurope": "En cours",
+      "coupeEurope": "CL - Quart de finale",
       "superCoupeEurope": "/",
       "mondialClubs": "Demi-finale"
+    },
+    {
+      "saison": "Saison 10",
+      "championnat": "En cours",
+      "coupeBelgique": "En cours",
+      "superCoupeBelgique": "En cours",
+      "coupeEurope": "En cours",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
     }
   ],
   "statistiques": [
@@ -149,11 +158,19 @@
     },
     {
       "saison": "Saison 9",
+      "joueurCle": "7.36 - J. Lecat",
+      "meilleurButeur": "32 - M. Cvetkovic",
+      "meilleurPasseur": "17 - J. Lecat",
+      "transfertRecord": "13.500.000 € - L. Hey",
+      "premiereVideo": "Épisode 116"
+    },
+    {
+      "saison": "Saison 10",
       "joueurCle": "En cours",
       "meilleurButeur": "En cours",
       "meilleurPasseur": "En cours",
       "transfertRecord": "En cours",
-      "premiereVideo": "Épisode 116"
+      "premiereVideo": "Épisode 131"
     }
   ]
 }

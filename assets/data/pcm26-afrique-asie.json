@@ -18,9 +18,20 @@
       "sponsor2": "3T",
       "sponsor3": "/",
       "budget": "1.115.000 €",
+      "classement": "19e",
+      "victoires": "60",
+      "premiereVideo": "Épisode 9"
+    },	  
+    {
+      "saison": "Saison 3",
+      "niveau": "UCI ProTeam",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "Alfa Romeo",
+      "sponsor3": "3T",
+      "budget": "? €",
       "classement": "TBD",
       "victoires": "TBD",
-      "premiereVideo": "Épisode 9"
+      "premiereVideo": "Épisode 20"
     }
   ],
   "performances": [
@@ -36,13 +47,23 @@
     },
     {
       "saison": "Saison 2",
-      "classement": "En cours",
-      "individuel": "En cours",
-      "victoiresCN": 2,
-      "victoiresWT": 0,
-      "victoiresPro": 0,
-      "victoires1": 0,
-      "victoires2": 0
+      "classement": "19e",
+      "individuel": "39e W.Berhe",
+      "victoiresCN": 14,
+      "victoiresWT": 2,
+      "victoiresPro": 2,
+      "victoires1": 12,
+      "victoires2": 30
+    },
+    {
+      "saison": "Saison 3",
+      "classement": "TBD",
+      "individuel": "TBD",
+      "victoiresCN": "TBD",
+      "victoiresWT": "TBD",
+      "victoiresPro": "TBD",
+      "victoires1": "TBD",
+      "victoires2": "TBD"
     }
   ],
   "grandsToursMonuments": [
@@ -61,22 +82,34 @@
       "saison": "Saison 2",
       "giro": "Non-qualifié",
       "tourDeFrance": "Non-qualifié",
-      "vuelta": "TBD",
+      "vuelta": "4e - W.Berhe",
       "milanoSanremo": "Non-qualifié",
       "tourDesFlandres": "Non-qualifié",
-      "parisRoubaix": "TBD",
+      "parisRoubaix": "94e - R.Pajur",
       "liegeBastogneLiege": "Non-qualifié",
       "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 3",
+      "giro": "TBD",
+      "tourDeFrance": "TBD",
+      "vuelta": "TBD",
+      "milanoSanremo": "TBD",
+      "tourDesFlandres": "TBD",
+      "parisRoubaix": "TBD",
+      "liegeBastogneLiege": "TBD",
+      "ilLombardia": "TBD"
     }
   ],
   "faitsMarquants": [
-    { "saison": "15/01/2026", "texte": "Première victoire en .2 : Dawit Yemane avec l'étape 7 de la Vuelta a Costa Rica" },
-    { "saison": "18/01/2026", "texte": "Première victoire en CN : Sarawut Sirironachai en Thaïlande" },
-    { "saison": "26/02/2026", "texte": "Première victoire en .1 : Dawit Yemane avec l'étape 5 du Tour du Rwanda" },
-    { "saison": "18/04/2026", "texte": "Première victoire en .Pro : Welay Berhe avec l'étape 4 du Tour of Hainan" },
-    { "saison": "01/01/2027", "texte": "Passage en UCI ProTeam (Continental Pro)" },
-    { "saison": "28/02/2027", "texte": "Première participation en World Tour : Omloop Nieuwsblad" },
-    { "saison": "??/??/2027", "texte": "Première participation à un monument : Paris-Roubaix" },
-    { "saison": "??/??/2027", "texte": "Première participation à un grand tour : Vuelta a España" }
+    { "saison": "15/01/2026", "texte": "🏆 Première victoire en .2 : Dawit Yemane avec l'étape 7 de la Vuelta a Costa Rica" },
+    { "saison": "18/01/2026", "texte": "🏆 Première victoire en CN : Sarawut Sirironachai en Thaïlande" },
+    { "saison": "26/02/2026", "texte": "🏆 Première victoire en .1 : Dawit Yemane avec l'étape 5 du Tour du Rwanda" },
+    { "saison": "18/04/2026", "texte": "🏆 Première victoire en .Pro : Welay Berhe avec l'étape 4 du Tour of Hainan" },
+    { "saison": "01/01/2027", "texte": "🆙 Passage en UCI ProTeam (Continental Pro)" },
+    { "saison": "28/02/2027", "texte": "🆕 Première participation en World Tour : Omloop Nieuwsblad" },
+    { "saison": "12/04/2027", "texte": "🆕 Première participation à un monument : Paris-Roubaix" },
+    { "saison": "22/08/2027", "texte": "🆕 Première participation à un grand tour : Vuelta a España" },
+    { "saison": "23/08/2027", "texte": "🏆 Première victoire en World Tour : Romet Pajour avec l'étape 5 du Renewi Tour" }
   ]
 }
