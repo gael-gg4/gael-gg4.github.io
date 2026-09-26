@@ -83,6 +83,15 @@
     },
     {
       "saison": "Saison 10",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "Finaliste",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 11",
       "championnat": "En cours",
       "coupeBelgique": "En cours",
       "superCoupeBelgique": "En cours",
@@ -166,11 +175,19 @@
     },
     {
       "saison": "Saison 10",
+      "joueurCle": "7.31 - D. Follet",
+      "meilleurButeur": "27 - M. Michaux",
+      "meilleurPasseur": "16 - D. Follet",
+      "transfertRecord": "16.000.000 € - E. Sternal",
+      "premiereVideo": "Épisode 131"
+    },
+    {
+      "saison": "Saison 11",
       "joueurCle": "En cours",
       "meilleurButeur": "En cours",
       "meilleurPasseur": "En cours",
       "transfertRecord": "En cours",
-      "premiereVideo": "Épisode 131"
+      "premiereVideo": "Épisode 145"
     }
   ]
 }

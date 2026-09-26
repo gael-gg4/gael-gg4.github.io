@@ -28,10 +28,21 @@
       "sponsor1": "Dimension Data",
       "sponsor2": "Alfa Romeo",
       "sponsor3": "3T",
-      "budget": "? €",
+      "budget": "1.681.000 €",
+      "classement": "12e",
+      "victoires": "83",
+      "premiereVideo": "Épisode 20"
+    },	  
+    {
+      "saison": "Saison 4",
+      "niveau": "UCI World Tour",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "BMW",
+      "sponsor3": "3T",
+      "budget": "TBD €",
       "classement": "TBD",
       "victoires": "TBD",
-      "premiereVideo": "Épisode 20"
+      "premiereVideo": "Épisode 35"
     }
   ],
   "performances": [
@@ -57,6 +68,16 @@
     },
     {
       "saison": "Saison 3",
+      "classement": "12e",
+      "individuel": "47e B.Munton",
+      "victoiresCN": "19",
+      "victoiresWT": "4",
+      "victoiresPro": "9",
+      "victoires1": "13",
+      "victoires2": "38"
+    },
+    {
+      "saison": "Saison 4",
       "classement": "TBD",
       "individuel": "TBD",
       "victoiresCN": "TBD",
@@ -91,6 +112,17 @@
     },
     {
       "saison": "Saison 3",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "14e - B.Munton",
+      "vuelta": "19e - B.Munton",
+      "milanoSanremo": "10e - E.Mulubrhan",
+      "tourDesFlandres": "47e - N.Raisberg",
+      "parisRoubaix": "51e - R.Pajur",
+      "liegeBastogneLiege": "21e - N.Vinokourov",
+      "ilLombardia": "47e - E.Mulubrhan"
+    },
+    {
+      "saison": "Saison 4",
       "giro": "TBD",
       "tourDeFrance": "TBD",
       "vuelta": "TBD",
@@ -110,6 +142,7 @@
     { "saison": "28/02/2027", "texte": "🆕 Première participation en World Tour : Omloop Nieuwsblad" },
     { "saison": "12/04/2027", "texte": "🆕 Première participation à un monument : Paris-Roubaix" },
     { "saison": "22/08/2027", "texte": "🆕 Première participation à un grand tour : Vuelta a España" },
-    { "saison": "23/08/2027", "texte": "🏆 Première victoire en World Tour : Romet Pajour avec l'étape 5 du Renewi Tour" }
+    { "saison": "23/08/2027", "texte": "🏆 Première victoire en World Tour : Romet Pajour avec l'étape 5 du Renewi Tour" },
+    { "saison": "01/01/2029", "texte": "🆙 Passage en UCI World Tour" }
   ]
 }
