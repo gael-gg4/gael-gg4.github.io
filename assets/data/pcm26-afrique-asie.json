@@ -39,10 +39,21 @@
       "sponsor1": "Dimension Data",
       "sponsor2": "BMW",
       "sponsor3": "3T",
+      "budget": "2.026.000 €",
+      "classement": "7e",
+      "victoires": "84",
+      "premiereVideo": "Épisode 35"
+    },	  
+    {
+      "saison": "Saison 5",
+      "niveau": "UCI World Tour",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "BMW",
+      "sponsor3": "3T",
       "budget": "TBD €",
       "classement": "TBD",
       "victoires": "TBD",
-      "premiereVideo": "Épisode 35"
+      "premiereVideo": "Épisode 50"
     }
   ],
   "performances": [
@@ -78,13 +89,23 @@
     },
     {
       "saison": "Saison 4",
+      "classement": "7e",
+      "individuel": "30e R.Sagitov",
+      "victoiresCN": "25",
+      "victoiresWT": "12",
+      "victoiresPro": "12",
+      "victoires1": "35",
+      "victoires2": "/"
+    },
+    {
+      "saison": "Saison 5",
       "classement": "TBD",
       "individuel": "TBD",
       "victoiresCN": "TBD",
       "victoiresWT": "TBD",
       "victoiresPro": "TBD",
       "victoires1": "TBD",
-      "victoires2": "TBD"
+      "victoires2": "/"
     }
   ],
   "grandsToursMonuments": [
@@ -123,6 +144,17 @@
     },
     {
       "saison": "Saison 4",
+      "giro": "42e - B.Munton",
+      "tourDeFrance": "17e - R.Sagitov",
+      "vuelta": "29e - N.Vinokourov",
+      "milanoSanremo": "16e - N.Vinokourov",
+      "tourDesFlandres": "7e - Y.Fedorov",
+      "parisRoubaix": "3e - Y.Fedorov",
+      "liegeBastogneLiege": "10e - N.Vinokourov",
+      "ilLombardia": "10e - R.Sagitov"
+    },
+    {
+      "saison": "Saison 5",
       "giro": "TBD",
       "tourDeFrance": "TBD",
       "vuelta": "TBD",
@@ -143,6 +175,7 @@
     { "saison": "12/04/2027", "texte": "🆕 Première participation à un monument : Paris-Roubaix" },
     { "saison": "22/08/2027", "texte": "🆕 Première participation à un grand tour : Vuelta a España" },
     { "saison": "23/08/2027", "texte": "🏆 Première victoire en World Tour : Romet Pajour avec l'étape 5 du Renewi Tour" },
-    { "saison": "01/01/2029", "texte": "🆙 Passage en UCI World Tour" }
+    { "saison": "01/01/2029", "texte": "🆙 Passage en UCI World Tour" },
+    { "saison": "25/03/2029", "texte": "🏆 Première classique en World Tour : Romet Pajour avec le Ronde van Brugge" }
   ]
 }

@@ -86,18 +86,27 @@
       "championnat": "🏆 Champion",
       "coupeBelgique": "🏆 Vainqueur",
       "superCoupeBelgique": "🏆 Vainqueur",
-      "coupeEurope": "Finaliste",
+      "coupeEurope": "CL - Finaliste",
       "superCoupeEurope": "/",
       "mondialClubs": "/"
     },
     {
       "saison": "Saison 11",
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "CL - 🏆 Vainqueur",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 12",
       "championnat": "En cours",
       "coupeBelgique": "En cours",
       "superCoupeBelgique": "En cours",
       "coupeEurope": "En cours",
-      "superCoupeEurope": "/",
-      "mondialClubs": "/"
+      "superCoupeEurope": "En cours",
+      "mondialClubs": "En cours"
     }
   ],
   "statistiques": [
@@ -183,11 +192,19 @@
     },
     {
       "saison": "Saison 11",
+      "joueurCle": "7.49 - Y. Van Herreweghe",
+      "meilleurButeur": "29 - M. Michaux",
+      "meilleurPasseur": "26 - Y. Van Herreweghe",
+      "transfertRecord": "800.000 € - J. Broos",
+      "premiereVideo": "Épisode 145"
+    },
+    {
+      "saison": "Saison 12",
       "joueurCle": "En cours",
       "meilleurButeur": "En cours",
       "meilleurPasseur": "En cours",
       "transfertRecord": "En cours",
-      "premiereVideo": "Épisode 145"
+      "premiereVideo": "Épisode 159"
     }
   ]
 }
