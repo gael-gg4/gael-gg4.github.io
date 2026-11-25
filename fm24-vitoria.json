@@ -1,0 +1,108 @@
+{
+  "competitions": [
+    {
+      "saison": "Saison 1",
+      "championnat": "3e",
+      "coupePortugal": "3e tour",
+      "superCoupePortugal": "/",
+      "coupeEurope": "C3 - Quart de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 2",
+      "championnat": "2e",
+      "coupePortugal": "Finaliste",
+      "superCoupePortugal": "/",
+      "coupeEurope": "EL - Demi-finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 3",
+      "championnat": "2e",
+      "coupePortugal": "Demi-finale",
+      "superCoupePortugal": "/",
+      "coupeEurope": "UCL - Huitième de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 4",
+      "championnat": "🏆 Champion",
+      "coupePortugal": "Demi-finale",
+      "superCoupePortugal": "/",
+      "coupeEurope": "UCL - Huitième de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 5",
+      "championnat": "🏆 Champion",
+      "coupePortugal": "🏆 Vainqueur",
+      "superCoupePortugal": "FInaliste",
+      "coupeEurope": "UCL - Huitième de finale",
+      "superCoupeEurope": "/",
+      "mondialClubs": "/"
+    },
+    {
+      "saison": "Saison 6",
+      "championnat": "2e",
+      "coupePortugal": "🏆 Vainqueur",
+      "superCoupePortugal": "🏆 Vainqueur",
+      "coupeEurope": "UCL - 🏆 Vainqueur",
+      "superCoupeEurope": "/",
+      "mondialClubs": "Demi-finale"
+    }
+  ],
+  "statistiques": [
+    {
+      "saison": "Saison 1",
+      "joueurCle": "7.26 - T. Händel",
+      "meilleurButeur": "13 - N. Santos",
+      "meilleurPasseur": "11 - T. Händel",
+      "transfertRecord": "550.000 € - M. Villanueva",
+      "premiereVideo": "Épisode 1"
+    },
+    {
+      "saison": "Saison 2",
+      "joueurCle": "7.33 - T. Händel",
+      "meilleurButeur": "14 - M. Baeza",
+      "meilleurPasseur": "11 - T. Arcanjo",
+      "transfertRecord": "3.500.000 € - J. Mendes",
+      "premiereVideo": "Épisode 15"
+    },
+    {
+      "saison": "Saison 3",
+      "joueurCle": "7.31 - T. Händel",
+      "meilleurButeur": "14 - H. Araújo",
+      "meilleurPasseur": "14 - K. Fujimoto",
+      "transfertRecord": "12.000.000 € - Samu",
+      "premiereVideo": "Épisode 32"
+    },
+    {
+      "saison": "Saison 4",
+      "joueurCle": "7.22 - T. Händel",
+      "meilleurButeur": "23 - J. Zivkovic",
+      "meilleurPasseur": "16 - D. Rodriguez",
+      "transfertRecord": "40.000.000 € - Reinier",
+      "premiereVideo": "Épisode 48"
+    },
+    {
+      "saison": "Saison 5",
+      "joueurCle": "7.23 - R. Mota",
+      "meilleurButeur": "18 - J. Zivkovic",
+      "meilleurPasseur": "12 - D. Rodriguez",
+      "transfertRecord": "16.000.000 € - M. Gabbia",
+      "premiereVideo": "Épisode 63"
+    },
+    {
+      "saison": "Saison 6",
+      "joueurCle": "7.20 - C. Patino",
+      "meilleurButeur": "19 - J. Zivkovic",
+      "meilleurPasseur": "?",
+      "transfertRecord": "25.000.000 € - M. Viti",
+      "premiereVideo": "Épisode 79"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "resumeSaisons": [
+    {
+      "saison": "Saison 1",
+      "niveau": "Continental",
+      "sponsor1": "Tarteletto",
+      "sponsor2": "Isorex",
+      "sponsor3": "/",
+      "budget": "932.000 €",
+      "classement": "61e",
+      "victoires": "?",
+      "premiereVideo": "Épisode 1"
+    },
+    {
+      "saison": "Saison 2",
+      "niveau": "Continental",
+      "sponsor1": "Tarteletto",
+      "sponsor2": "Colruyt",
+      "sponsor3": "Attaque Gusto",
+      "budget": "998.000 €",
+      "classement": "46e",
+      "victoires": 17,
+      "premiereVideo": "Épisode 5"
+    },
+    {
+      "saison": "Saison 3",
+      "niveau": "Continental",
+      "sponsor1": "Tarteletto",
+      "sponsor2": "Attaque Gusto",
+      "sponsor3": "/",
+      "budget": "979.000 €",
+      "classement": "34e",
+      "victoires": 29,
+      "premiereVideo": "Épisode 18"
+    },
+    {
+      "saison": "Saison 4",
+      "niveau": "UCI ProTeam",
+      "sponsor1": "Tarteletto",
+      "sponsor2": "BIL",
+      "sponsor3": "Delhaize",
+      "budget": "1.029.000 €",
+      "classement": "26e",
+      "victoires": 12,
+      "premiereVideo": "Épisode 33"
+    },
+    {
+      "saison": "Saison 5",
+      "niveau": "UCI ProTeam",
+      "sponsor1": "KBC",
+      "sponsor2": "Delhaize",
+      "sponsor3": "BIL",
+      "budget": "1.424.000 €",
+      "classement": "19e",
+      "victoires": 13,
+      "premiereVideo": "Épisode 49"
+    },
+    {
+      "saison": "Saison 6",
+      "niveau": "UCI WorldTeam",
+      "sponsor1": "KBC",
+      "sponsor2": "Canyon",
+      "sponsor3": "Delhaize",
+      "budget": "2.023.000 €",
+      "classement": "11e",
+      "victoires": 18,
+      "premiereVideo": "Épisode 68"
+    },
+    {
+      "saison": "Saison 7",
+      "niveau": "UCI WorldTeam",
+      "sponsor1": "KBC",
+      "sponsor2": "Sioen",
+      "sponsor3": "Citroën",
+      "budget": "3.258.000 €",
+      "classement": "6e",
+      "victoires": 16,
+      "premiereVideo": "Épisode 88"
+    },
+    {
+      "saison": "Saison 8",
+      "niveau": "UCI WorldTeam",
+      "sponsor1": "KBC",
+      "sponsor2": "Le Col",
+      "sponsor3": "Sioen",
+      "budget": "4.204.000 €",
+      "classement": "6e",
+      "victoires": 18,
+      "premiereVideo": "Épisode 105"
+    },
+    {
+      "saison": "Saison 9",
+      "niveau": "UCI WorldTeam",
+      "sponsor1": "KBC",
+      "sponsor2": "Maserati",
+      "sponsor3": "Le Col",
+      "budget": "5.868.000 €",
+      "classement": "2e",
+      "victoires": "?",
+      "premiereVideo": "Épisode 120"
+    }
+  ],
+  "performances": [
+    {
+      "saison": "Saison 1",
+      "classement": "61e",
+      "individuel": "?",
+      "victoiresCN": 0,
+      "victoiresWT": 0,
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 2",
+      "classement": "46e",
+      "individuel": "379e M.De Keersmaeker",
+      "victoiresCN": "?",
+      "victoiresWT": 0,
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 3",
+      "classement": "34e",
+      "individuel": "116e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": 0,
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 4",
+      "classement": "26e",
+      "individuel": "33e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": 0,
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 5",
+      "classement": "19e",
+      "individuel": "23e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": 0,
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 6",
+      "classement": "11e",
+      "individuel": "6e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 7",
+      "classement": "6e",
+      "individuel": "10e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 8",
+      "classement": "6e",
+      "individuel": "5e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    },
+    {
+      "saison": "Saison 9",
+      "classement": "2e",
+      "individuel": "2e S.Van Kerckhove",
+      "victoiresCN": "?",
+      "victoiresWT": "?",
+      "victoiresPro": "?",
+      "victoires1": "?",
+      "victoires2": "?"
+    }
+  ],
+  "grandsToursMonuments": [
+    {
+      "saison": "Saison 1",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 2",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 3",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 4",
+      "giro": "?",
+      "tourDeFrance": "?",
+      "vuelta": "?",
+      "milanoSanremo": "?",
+      "tourDesFlandres": "?",
+      "parisRoubaix": "?",
+      "liegeBastogneLiege": "?",
+      "ilLombardia": "?"
+    },
+    {
+      "saison": "Saison 6",
+      "giro": "?",
+      "tourDeFrance": "?",
+      "vuelta": "2e",
+      "milanoSanremo": "?",
+      "tourDesFlandres": "?",
+      "parisRoubaix": "?",
+      "liegeBastogneLiege": "?",
+      "ilLombardia": "?"
+    },
+    {
+      "saison": "Saison 7",
+      "giro": "?",
+      "tourDeFrance": "?",
+      "vuelta": "?",
+      "milanoSanremo": "🏆 Vainqueur",
+      "tourDesFlandres": "?",
+      "parisRoubaix": "?",
+      "liegeBastogneLiege": "?",
+      "ilLombardia": "?"
+    },
+    {
+      "saison": "Saison 8",
+      "giro": "4e",
+      "tourDeFrance": "?",
+      "vuelta": "4e",
+      "milanoSanremo": "?",
+      "tourDesFlandres": "?",
+      "parisRoubaix": "?",
+      "liegeBastogneLiege": "?",
+      "ilLombardia": "?"
+    },
+    {
+      "saison": "Saison 9",
+      "giro": "?",
+      "tourDeFrance": "3e",
+      "vuelta": "3e",
+      "milanoSanremo": "🏆 Vainqueur",
+      "tourDesFlandres": "5e",
+      "parisRoubaix": "🏆 Vainqueur",
+      "liegeBastogneLiege": "2e",
+      "ilLombardia": "7e"
+    }
+  ],
+  "faitsMarquants": [
+    { "saison": "2028", "texte": "Passage en UCI ProTeam (Continental Pro)" },
+    { "saison": "2030", "texte": "Passage en UCI WorldTeam" },
+    { "saison": "2030", "texte": "Johann Fischer remporte Milano-Sanremo" },
+    { "saison": "2030", "texte": "Seff Van Kerckhove termine 2e de la Vuelta a España" },
+    { "saison": "2033", "texte": "Seff Van Kerckhove remporte Milano-Sanremo" },
+    { "saison": "2033", "texte": "Maxom Bonte remporte Paris-Roubaix" },
+    { "saison": "2033", "texte": "Seff Van Kerckhove termine 3e du Tour de France" },
+    { "saison": "2033", "texte": "Seff Van Kerckhove termine 3e de la Vuelta a España" },
+    { "saison": "2033", "texte": "Seff Van Kerckhove remporte les World Championships ITT" }
+  ]
+}

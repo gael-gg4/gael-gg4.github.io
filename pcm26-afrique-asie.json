@@ -1,0 +1,213 @@
+{
+  "resumeSaisons": [
+    {
+      "saison": "Saison 1",
+      "niveau": "Continental",
+      "sponsor1": "Afrikan Parks",
+      "sponsor2": "/",
+      "sponsor3": "/",
+      "budget": "956.000 €",
+      "classement": "25e",
+      "victoires": "38",
+      "premiereVideo": "Épisode 1"
+    },	  
+    {
+      "saison": "Saison 2",
+      "niveau": "UCI ProTeam",
+      "sponsor1": "Afrikan Parks",
+      "sponsor2": "3T",
+      "sponsor3": "/",
+      "budget": "1.115.000 €",
+      "classement": "19e",
+      "victoires": "60",
+      "premiereVideo": "Épisode 9"
+    },	  
+    {
+      "saison": "Saison 3",
+      "niveau": "UCI ProTeam",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "Alfa Romeo",
+      "sponsor3": "3T",
+      "budget": "1.681.000 €",
+      "classement": "12e",
+      "victoires": "83",
+      "premiereVideo": "Épisode 20"
+    },	  
+    {
+      "saison": "Saison 4",
+      "niveau": "UCI World Tour",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "BMW",
+      "sponsor3": "3T",
+      "budget": "2.026.000 €",
+      "classement": "7e",
+      "victoires": "84",
+      "premiereVideo": "Épisode 35"
+    },	  
+    {
+      "saison": "Saison 5",
+      "niveau": "UCI World Tour",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "BMW",
+      "sponsor3": "3T",
+      "budget": "3.529.000 €",
+      "classement": "7e",
+      "victoires": "76",
+      "premiereVideo": "Épisode 50"
+    },	  
+    {
+      "saison": "Saison 6",
+      "niveau": "UCI World Tour",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "Alfa Romeo",
+      "sponsor3": "3T",
+      "budget": "TBD €",
+      "classement": "TBD",
+      "victoires": "TBD",
+      "premiereVideo": "Épisode 65"
+    }
+  ],
+  "performances": [
+    {
+      "saison": "Saison 1",
+      "classement": "25e",
+      "individuel": "131e W.Berhe",
+      "victoiresCN": 13,
+      "victoiresWT": 0,
+      "victoiresPro": 1,
+      "victoires1": 2,
+      "victoires2": 22
+    },
+    {
+      "saison": "Saison 2",
+      "classement": "19e",
+      "individuel": "39e W.Berhe",
+      "victoiresCN": 14,
+      "victoiresWT": 2,
+      "victoiresPro": 2,
+      "victoires1": 12,
+      "victoires2": 30
+    },
+    {
+      "saison": "Saison 3",
+      "classement": "12e",
+      "individuel": "47e B.Munton",
+      "victoiresCN": "19",
+      "victoiresWT": "4",
+      "victoiresPro": "9",
+      "victoires1": "13",
+      "victoires2": "38"
+    },
+    {
+      "saison": "Saison 4",
+      "classement": "7e",
+      "individuel": "30e R.Sagitov",
+      "victoiresCN": "25",
+      "victoiresWT": "12",
+      "victoiresPro": "12",
+      "victoires1": "35",
+      "victoires2": "/"
+    },
+    {
+      "saison": "Saison 5",
+      "classement": "7e",
+      "individuel": "14e R.Sagitov",
+      "victoiresCN": "23",
+      "victoiresWT": "12",
+      "victoiresPro": "22",
+      "victoires1": "19",
+      "victoires2": "/"
+    },
+    {
+      "saison": "Saison 6",
+      "classement": "TBD",
+      "individuel": "TBD",
+      "victoiresCN": "TBD",
+      "victoiresWT": "TBD",
+      "victoiresPro": "TBD",
+      "victoires1": "TBD",
+      "victoires2": "/"
+    }
+  ],
+  "grandsToursMonuments": [
+    {
+      "saison": "Saison 1",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "Non-qualifié",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "Non-qualifié",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 2",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "Non-qualifié",
+      "vuelta": "4e - W.Berhe",
+      "milanoSanremo": "Non-qualifié",
+      "tourDesFlandres": "Non-qualifié",
+      "parisRoubaix": "94e - R.Pajur",
+      "liegeBastogneLiege": "Non-qualifié",
+      "ilLombardia": "Non-qualifié"
+    },
+    {
+      "saison": "Saison 3",
+      "giro": "Non-qualifié",
+      "tourDeFrance": "14e - B.Munton",
+      "vuelta": "19e - B.Munton",
+      "milanoSanremo": "10e - E.Mulubrhan",
+      "tourDesFlandres": "47e - N.Raisberg",
+      "parisRoubaix": "51e - R.Pajur",
+      "liegeBastogneLiege": "21e - N.Vinokourov",
+      "ilLombardia": "47e - E.Mulubrhan"
+    },
+    {
+      "saison": "Saison 4",
+      "giro": "42e - B.Munton",
+      "tourDeFrance": "17e - R.Sagitov",
+      "vuelta": "29e - N.Vinokourov",
+      "milanoSanremo": "16e - N.Vinokourov",
+      "tourDesFlandres": "7e - Y.Fedorov",
+      "parisRoubaix": "3e - Y.Fedorov",
+      "liegeBastogneLiege": "10e - N.Vinokourov",
+      "ilLombardia": "10e - R.Sagitov"
+    },
+    {
+      "saison": "Saison 5",
+      "giro": "70e - Y.Hafez",
+      "tourDeFrance": "10e - R.Sagitov",
+      "vuelta": "21e - N.Vinokourov",
+      "milanoSanremo": "9e - N.Tesfazion",
+      "tourDesFlandres": "9e - A.Mikutis",
+      "parisRoubaix": "7e - Y.Fedorov",
+      "liegeBastogneLiege": "4e - R.Sagitov",
+      "ilLombardia": "11e - R.Sagitov"
+    },
+    {
+      "saison": "Saison 6",
+      "giro": "TBD",
+      "tourDeFrance": "TBD",
+      "vuelta": "TBD",
+      "milanoSanremo": "TBD",
+      "tourDesFlandres": "TBD",
+      "parisRoubaix": "TBD",
+      "liegeBastogneLiege": "TBD",
+      "ilLombardia": "TBD"
+    }
+  ],
+  "faitsMarquants": [
+    { "saison": "15/01/2026", "texte": "🏆 Première victoire en .2 : Dawit Yemane avec l'étape 7 de la Vuelta a Costa Rica" },
+    { "saison": "18/01/2026", "texte": "🏆 Première victoire en CN : Sarawut Sirironachai en Thaïlande" },
+    { "saison": "26/02/2026", "texte": "🏆 Première victoire en .1 : Dawit Yemane avec l'étape 5 du Tour du Rwanda" },
+    { "saison": "18/04/2026", "texte": "🏆 Première victoire en .Pro : Welay Berhe avec l'étape 4 du Tour of Hainan" },
+    { "saison": "01/01/2027", "texte": "🆙 Passage en UCI ProTeam (Continental Pro)" },
+    { "saison": "28/02/2027", "texte": "🆕 Première participation en World Tour : Omloop Nieuwsblad" },
+    { "saison": "12/04/2027", "texte": "🆕 Première participation à un monument : Paris-Roubaix" },
+    { "saison": "22/08/2027", "texte": "🆕 Première participation à un grand tour : Vuelta a España" },
+    { "saison": "23/08/2027", "texte": "🏆 Première victoire en World Tour : Romet Pajour avec l'étape 5 du Renewi Tour" },
+    { "saison": "01/01/2029", "texte": "🆙 Passage en UCI World Tour" },
+    { "saison": "25/03/2029", "texte": "🏆 Première classique en World Tour : Romet Pajour avec le Ronde van Brugge" }
+  ]
+}
