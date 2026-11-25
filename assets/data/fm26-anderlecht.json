@@ -101,12 +101,12 @@
     },
     {
       "saison": "Saison 12",
-      "championnat": "En cours",
-      "coupeBelgique": "En cours",
-      "superCoupeBelgique": "En cours",
-      "coupeEurope": "En cours",
-      "superCoupeEurope": "En cours",
-      "mondialClubs": "En cours"
+      "championnat": "🏆 Champion",
+      "coupeBelgique": "🏆 Vainqueur",
+      "superCoupeBelgique": "🏆 Vainqueur",
+      "coupeEurope": "🏆 Vainqueur",
+      "superCoupeEurope": "Finaliste",
+      "mondialClubs": "/"
     }
   ],
   "statistiques": [
@@ -200,10 +200,10 @@
     },
     {
       "saison": "Saison 12",
-      "joueurCle": "En cours",
-      "meilleurButeur": "En cours",
-      "meilleurPasseur": "En cours",
-      "transfertRecord": "En cours",
+      "joueurCle": "7.46 - J. Barreiros",
+      "meilleurButeur": "45 - M. Michaux",
+      "meilleurPasseur": "24 - J. Barreiros",
+      "transfertRecord": "150.000.000 € - Y. Van Herreweghe",
       "premiereVideo": "Épisode 159"
     }
   ]

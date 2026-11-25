@@ -50,10 +50,21 @@
       "sponsor1": "Dimension Data",
       "sponsor2": "BMW",
       "sponsor3": "3T",
+      "budget": "3.529.000 €",
+      "classement": "7e",
+      "victoires": "76",
+      "premiereVideo": "Épisode 50"
+    },	  
+    {
+      "saison": "Saison 6",
+      "niveau": "UCI World Tour",
+      "sponsor1": "Dimension Data",
+      "sponsor2": "Alfa Romeo",
+      "sponsor3": "3T",
       "budget": "TBD €",
       "classement": "TBD",
       "victoires": "TBD",
-      "premiereVideo": "Épisode 50"
+      "premiereVideo": "Épisode 65"
     }
   ],
   "performances": [
@@ -99,6 +110,16 @@
     },
     {
       "saison": "Saison 5",
+      "classement": "7e",
+      "individuel": "14e R.Sagitov",
+      "victoiresCN": "23",
+      "victoiresWT": "12",
+      "victoiresPro": "22",
+      "victoires1": "19",
+      "victoires2": "/"
+    },
+    {
+      "saison": "Saison 6",
       "classement": "TBD",
       "individuel": "TBD",
       "victoiresCN": "TBD",
@@ -155,6 +176,17 @@
     },
     {
       "saison": "Saison 5",
+      "giro": "70e - Y.Hafez",
+      "tourDeFrance": "10e - R.Sagitov",
+      "vuelta": "21e - N.Vinokourov",
+      "milanoSanremo": "9e - N.Tesfazion",
+      "tourDesFlandres": "9e - A.Mikutis",
+      "parisRoubaix": "7e - Y.Fedorov",
+      "liegeBastogneLiege": "4e - R.Sagitov",
+      "ilLombardia": "11e - R.Sagitov"
+    },
+    {
+      "saison": "Saison 6",
       "giro": "TBD",
       "tourDeFrance": "TBD",
       "vuelta": "TBD",
